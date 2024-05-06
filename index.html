@@ -14690,19 +14690,12 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new lib.AnMovieClip();
 p.nominalBounds = new cjs.Rectangle(311.3,409.2,1099.9,728.3);
 // library properties:
-let fps;
-
-if((/iphone|ipad|ipod/i).test(window.navigator.userAgent.toLowerCase()) || (navigator.platform === "MacIntel" && typeof navigator.standalone !== "undefined")) {						
-	fps = 120;
-}else{
-	fps = 60;
-}
 
 lib.properties = {
 	id: '4BC1DA1EE6FC394685FA1127CC2C4E1C',
 	width: 1080,
 	height: 1080,
-	fps: fps,
+	fps: 60,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
